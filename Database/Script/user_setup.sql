@@ -1,0 +1,16 @@
+-- Creates the schema user:
+
+CREATE USER MARGIN_USER IDENTIFIED BY margin_user
+  DEFAULT TABLESPACE MARGIN_TBS
+  QUOTA UNLIMITED ON MARGIN_TBS;
+
+
+-- Grants the basic privileges required for this project:
+
+GRANT CREATE SESSION,
+      CREATE TABLE,
+      CREATE VIEW,
+      CREATE SEQUENCE,
+      CREATE PROCEDURE,
+      CREATE TRIGGER
+TO MARGIN_USER;
