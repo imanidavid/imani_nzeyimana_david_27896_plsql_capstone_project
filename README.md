@@ -325,7 +325,7 @@ Includes:
 
 ---
 
-# 📜 License
+#  License
 
 This project is submitted as part of the academic requirements for the PL/SQL Practicum at **Adventist University of Central Africa (AUCA)**.
 It is provided strictly for **educational and evaluation purposes**.
@@ -335,7 +335,7 @@ Unauthorized commercial use, redistribution, or modification is not permitted wi
 
 ---
 
-# 🙏 Acknowledgments
+# Acknowledgments
 
 Special appreciation to:
 
